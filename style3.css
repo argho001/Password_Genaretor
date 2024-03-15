@@ -1,0 +1,50 @@
+
+body{
+    background-color: hwb(240 33% 32%);
+}
+#div1{
+    width: 500px;
+    background-color: white;
+    margin-left: 150px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px hwb(0 12% 88%);
+    
+}
+#headline{
+    color: rgb(255, 244, 244);
+    margin-left: 150px;
+    margin-top: 150px;
+}
+#img1{
+    max-width: 30px;
+    margin-top: 3px;
+    padding-top: -7px;
+    cursor: pointer;
+    
+}
+#img1:hover{
+    max-width: 34px;
+    padding-top: -7px;
+}
+#password{
+    font-size: 2.5rem;
+    width: 450px;
+    border-radius: 8px;
+    border: none;
+   
+}
+#generate{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 3px;
+    background-color: rgb(93, 183, 247);
+    color: rgb(6, 1, 1);
+    cursor: pointer;
+}
+#generate:hover{
+    background-color: hwb(240 4% 95%);
+    color: white ;
+    box-shadow: 3px 3px 3px rgb(40, 81, 111);
+}
